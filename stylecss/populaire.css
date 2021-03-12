@@ -1,0 +1,158 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%  ;
+  }
+  
+  
+  .populaire{
+    background-color: rgb(228, 228, 228);
+    height: 710px;
+  }
+  
+  .lespluspop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+  }
+  .lespluspop h1
+  {
+    margin: 30px 0 30px 20px;
+    padding-right: 0;
+    font-size: 25px;
+  }
+  
+  .lespluspop span{
+   font-size: xx-large;
+   justify-content: flex-end;
+   left: 200px;
+   margin-right: 20px;
+  
+  }
+  .allbox{  display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px 15px 10px;
+    height: 160px;
+    border-radius: 20px;
+    padding: 5px;
+    max-width: 400px;
+    box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
+  }
+  
+  .test{
+    display: inline-block;
+    background-position: center;
+    height: 100%;
+    width: 250px;
+    background-size: 255px;
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    
+  }
+  .test2{
+    display: inline-block;
+    background-position: center;
+    height: 100%;
+    width: 250px;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    background-size: 220px;
+    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  }
+  .test3{
+    display: inline-block;
+    background-position: center;
+    height: 100%;
+    width: 250px;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    background-size: 155px;
+    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+  }
+  .txt{
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .txt h2{
+    font-weight: 900;
+    font-size: 20px ;
+    height: 60px;
+    width: 200px;
+    margin: 0;
+    padding-top: 15px;
+  }
+  .txt p{
+    margin: 0;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+  }
+  .star{
+    color: #0065FC;
+  }
+  .stargray{
+    color: #a3a3a3;
+  }
+
+  @media screen and (min-width: 1040px){
+
+    .container{
+      padding: 0 2%;
+      box-sizing: border-box;
+    }
+
+  
+    .populaire{
+
+        width: 30%;
+        max-width: 28%;
+        flex-wrap: nowrap;
+        margin-left: 65%;
+        border-radius: 25px;
+        
+      }
+      .populaire h2{
+        font-size: 18px;
+        max-width: 150px;
+     
+      }
+
+      .test{
+        display: inline-block;
+        background-position: center;
+        height: 100%;
+        width: 600px;
+        min-width: 40%;
+        background-size: 255px;
+        border-top-left-radius: 15px ;
+        border-bottom-left-radius: 15px; 
+      }
+      .test2{
+        display: inline-block;
+        background-position: center;
+        height: 100%;
+        width: 600px;
+        min-width: 40%;
+        background-size: 255px;
+        border-top-left-radius: 15px ;
+        border-bottom-left-radius: 15px;
+      }
+      .test3{
+        display: inline-block;
+        background-position: center;
+        height: 100%;
+        width: 600px;
+        min-width: 40%;
+        background-size: 255px;
+        border-top-left-radius: 15px ;
+        border-bottom-left-radius: 15px;
+      }
+
+      .txt p{
+        margin-bottom: 5px;
+      }
+
+}
