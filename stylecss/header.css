@@ -58,6 +58,7 @@
   font-size: large;
   border-bottom: solid 4px rgb(97, 120, 248);
   padding-bottom: 40px;
+  padding-right: 10px;
   }
   .tabs :nth-last-child(2):hover{
     border-bottom: solid 3px rgb(46, 75, 238);
