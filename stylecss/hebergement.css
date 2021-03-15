@@ -142,6 +142,8 @@
       }
       .hebergement h1{
         margin-left: unset;
+        min-width: 400px;
+        width: 400px;
 
 
       }
@@ -155,7 +157,6 @@
       }
       .restbox h1{
        padding-right: 60%;
-       min-width: 200px;
       }
       .restboxpopu{
        display: flex;

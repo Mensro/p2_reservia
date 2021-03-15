@@ -8,6 +8,7 @@
   .populaire{
     background-color: rgb(228, 228, 228);
     height: 710px;
+    max-width: 500px;
   }
   
   .lespluspop{
@@ -31,7 +32,8 @@
    margin-right: 20px;
   
   }
-  .allbox{  display: flex;
+  .allbox{  
+    display: flex;
     background-color: rgb(255, 255, 255);
     margin: 0 10px 15px 10px;
     height: 160px;
@@ -118,6 +120,9 @@
         font-size: 18px;
         max-width: 150px;
      
+      }
+      .re{
+        max-width: 300px;
       }
 
       .test{
