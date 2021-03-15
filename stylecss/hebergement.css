@@ -1,12 +1,6 @@
 
 
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2%  ;
-  }
-  
 
 .hebergement{
     height: 1630px;
@@ -126,11 +120,7 @@
 
   @media screen and (min-width: 1040px){
 
-    .container{
-      padding: 0 2%;
-      box-sizing: border-box;
-    
-    }
+
       
       .align_pop_hebergement{
         display: flex;

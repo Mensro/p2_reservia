@@ -1,9 +1,4 @@
-.container{
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2%  ;
-  }
-  
+
   
   .populaire{
     background-color: rgb(228, 228, 228);
@@ -101,10 +96,6 @@
 
   @media screen and (min-width: 1040px){
 
-    .container{
-      padding: 0 2%;
-      box-sizing: border-box;
-    }
 
   
     .populaire{

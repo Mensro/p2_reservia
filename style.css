@@ -6,3 +6,12 @@
 @import "stylecss/footer.css";
 
 /*test du commit*/
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%  ;
+    max-width: 1500px;
+    box-sizing: border-box;
+  }
+  

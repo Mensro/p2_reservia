@@ -1,10 +1,5 @@
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2%  ;
-  }
-  
+
   
   .activité{
     height: 1575px;
@@ -78,12 +73,6 @@
   }
 
   @media screen and (min-width: 1040px){
-
-    .container{
-      padding: 0 20px;
-      box-sizing: border-box;
-      max-width: 1500px;
-    }
 
   
 
