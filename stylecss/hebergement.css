@@ -141,23 +141,21 @@
         height: unset;
       }
       .hebergement h1{
-        margin-left: unset;
-        min-width: 400px;
-        width: 400px;
+         width: 100%;
+         margin-left: 50px;
 
 
       }
       .restbox{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         background-color: #d6d4d48a;
         height: 710px;
         max-height: 710px;
         border-radius: 25px;
-      }
-      .restbox h1{
-       padding-right: 60%;
-      }
+      } 
+
       .restboxpopu{
        display: flex;
        background-color: rgb(255, 255, 255);
