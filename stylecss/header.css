@@ -40,6 +40,7 @@
     font-size: large;
     padding-bottom: 40px;
     border-bottom: solid 4px rgba(15, 15, 15, 0.1);
+    
     }
   .tabs :nth-last-child(1):hover{
     border-bottom: solid 4px rgb(46, 75, 238);
@@ -74,6 +75,7 @@
     color: #0065FC;
     font-size: large;
     font-weight: bold;
+    cursor: pointer;
    
   }
   .inscrire:hover{
@@ -142,6 +144,8 @@
         top: -120px;
         width: 20%;
         max-width: 30%;
+        cursor: pointer;
+        
       }
     
       .tabs :nth-last-child(1){
