@@ -133,14 +133,7 @@
         margin-top: unset;
         min-width: 150px;
       }
-      .restbox h3{
-        position: absolute;
-        display: flex;
-        margin: unset;
-        padding: unset;
-        margin-top: 660px;
-        margin-left: 20px;
-      }
+
       .cardbox{
         display: flex;
         justify-content: space-between;

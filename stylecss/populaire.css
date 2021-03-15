@@ -36,7 +36,6 @@
     padding: 5px;
     max-width: 400px;
     box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
-    cursor: pointer;
   }
   
   .test{
@@ -110,7 +109,8 @@
       }
       .populaire h2{
         font-size: 18px;
-        max-width: 150px;
+        max-width: 200px;
+        min-width: 200px;
      
       }
       .re{
@@ -123,6 +123,7 @@
         height: 100%;
         width: 600px;
         min-width: 40%;
+        max-width: 180px;
         background-size: 255px;
         border-top-left-radius: 15px ;
         border-bottom-left-radius: 15px; 
@@ -133,6 +134,7 @@
         height: 100%;
         width: 600px;
         min-width: 40%;
+        max-width: 180px;
         background-size: 255px;
         border-top-left-radius: 15px ;
         border-bottom-left-radius: 15px;
@@ -143,6 +145,7 @@
         height: 100%;
         width: 600px;
         min-width: 40%;
+        max-width: 180px;
         background-size: 255px;
         border-top-left-radius: 15px ;
         border-bottom-left-radius: 15px;
