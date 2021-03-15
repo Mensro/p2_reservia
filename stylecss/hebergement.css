@@ -128,35 +128,34 @@
     .container{
       padding: 0 2%;
       box-sizing: border-box;
+    
     }
-
-  
-
-    .hebergement{
-        margin-top: -740px;
-        height: 700px;
-        
-      }  
+      
+      .align_pop_hebergement{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-left: 10px;
+      }
+      .hebergement{
+        height: unset;
+      }
       .hebergement h1{
-        margin-top: unset;
-        width: 400px;
-        min-width: 400px;
+        margin-left: unset;
+
+
       }
       .restbox{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        max-width: 62%;
         background-color: #d6d4d48a;
-        margin-top: 30px;
         height: 710px;
         max-height: 710px;
         border-radius: 25px;
       }
       .restbox h1{
-       margin-top: 35px;
-       margin-left: 124px;
-       padding-right: 50%;
+       padding-right: 60%;
+       min-width: 200px;
       }
       .restboxpopu{
        display: flex;

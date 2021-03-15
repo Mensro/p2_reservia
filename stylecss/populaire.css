@@ -110,8 +110,8 @@
         width: 35%;
         max-width: 35%;
         flex-wrap: nowrap;
-        margin-left: 65%;
         border-radius: 25px;
+        margin-left: 40px;
         
       }
       .populaire h2{
