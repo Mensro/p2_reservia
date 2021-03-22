@@ -1,12 +1,5 @@
-
-
-
-
 .hebergement{
     height: 1630px;
-  
-  
-    
   }
   .hebergement h1{
     padding-left: 20px;
@@ -21,17 +14,15 @@
   }
   .restbox{
     display: inline;
-  
   }
+  
   .testrest{
-   
     background-position: center;
     height: 60%;
     width: 100%;
     border-top-left-radius: 15px ;
     border-top-right-radius: 15px;
     background-image: url("");
-  
   }
   .restboxpopu{
     background-color: rgb(255, 255, 255);
@@ -42,80 +33,52 @@
     border-radius: 25px;
     box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
     cursor: pointer;
-    
-  
   }
+
   .txtrest{
     width: 100%;
     text-align: left;
     height: 80px;
     padding-left: 15px;
-  
   }
+
   .txtrest h2{
     font-size: 20px;
     margin-bottom: 0;
   }
+
   .txtrest p{
     font-size: 15px;
     margin-top: 1px;
   }
-  .testrest1{
+
+  .box_hebergement{
     background-position: center;
     height: 60%;
     width: 100%;
     border-top-left-radius: 15px ;
     border-top-right-radius: 15px;
+    background-size: 385px;
+  }
+  .box_hebergement-1{
     background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-size: 385px;
-  
   }
   
-  .testrest2{
-    background-position: center;
-    height: 60%;
-    width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
+  .box_hebergement-2{
     background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-size: 385px;
   }
   
-  .testrest4{
-    background-position: center;
-    height: 60%;
-    width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
+  .box_hebergement-4{
     background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    background-size: 385px;
   }
-  .testrest5{
-    background-position: center;
-    height: 60%;
-    width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
+  .box_hebergement-5{
     background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    background-size: 385px;
   }
-  .testrest3{
-    background-position: center;
-    height: 60%;
-    width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
+  .box_hebergement-3{
     background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-size: 385px;
   }
   
-  .testrest6{
-    background-position: center;
-    height: 60%;
-    width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
-    background-size: 385px;
+  .box_hebergement-6{
     background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   }
   
@@ -141,8 +104,6 @@
 
          margin-left: 50px;
          margin-bottom: 50px;
-
-
       }
       .hebergement h3{
         margin-top: 15px;
@@ -154,7 +115,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
       } 
 
       .restboxpopu{
@@ -169,43 +129,12 @@
        box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
       }
 
-      .testrest1{
+      .box_hebergement{
         height: 60%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
       }
-      .testrest2{
-        height: 60%;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-left-radius: 0;
-      }
-      .testrest3{
-        height: 60%;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 20px;
-      }
-      .testrest4{
-        height: 60%;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 20px;
-      }
-      .testrest5{
-        height: 60%;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 20px;
-      
-      }
-      .testrest6{
-        height: 60%;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 20px;
-      
-      }
+
       .search span{
         min-width: 12%;
       }

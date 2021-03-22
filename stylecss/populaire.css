@@ -38,35 +38,23 @@
     box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
   }
   
-  .test{
+  .pop_box{
     display: inline-block;
     background-position: center;
     height: 100%;
     width: 250px;
     background-size: 255px;
-    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     border-top-left-radius: 15px ;
     border-bottom-left-radius: 15px;
-    
+
   }
-  .test2{
-    display: inline-block;
-    background-position: center;
-    height: 100%;
-    width: 250px;
-    border-top-left-radius: 15px ;
-    border-bottom-left-radius: 15px;
-    background-size: 220px;
+  .pop_box-1{
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  }
+  .pop_box-2{
     background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   }
-  .test3{
-    display: inline-block;
-    background-position: center;
-    height: 100%;
-    width: 250px;
-    border-top-left-radius: 15px ;
-    border-bottom-left-radius: 15px;
-    background-size: 155px;
+  .pop_box-3{
     background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
   }
   .txt{
@@ -96,10 +84,7 @@
 
   @media screen and (min-width: 1040px){
 
-
-  
     .populaire{
-
         width: 35%;
         max-width: 35%;
         flex-wrap: nowrap;
@@ -117,7 +102,7 @@
         max-width: 300px;
       }
 
-      .test{
+      .pop_box{
         display: inline-block;
         background-position: center;
         height: 100%;
@@ -128,31 +113,8 @@
         border-top-left-radius: 15px ;
         border-bottom-left-radius: 15px; 
       }
-      .test2{
-        display: inline-block;
-        background-position: center;
-        height: 100%;
-        width: 600px;
-        min-width: 40%;
-        max-width: 180px;
-        background-size: 255px;
-        border-top-left-radius: 15px ;
-        border-bottom-left-radius: 15px;
-      }
-      .test3{
-        display: inline-block;
-        background-position: center;
-        height: 100%;
-        width: 600px;
-        min-width: 40%;
-        max-width: 180px;
-        background-size: 255px;
-        border-top-left-radius: 15px ;
-        border-bottom-left-radius: 15px;
-      }
 
       .txt p{
         margin-bottom: 5px;
       }
-
 }
