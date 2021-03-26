@@ -85,8 +85,7 @@
 
   @media screen and (min-width: 1040px){
 
-
-      
+    
       .align_pop_hebergement{
         display: flex;
         flex-direction: row-reverse;
