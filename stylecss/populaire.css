@@ -1,120 +1,124 @@
+.populaire {
+  background-color: rgb(228, 228, 228);
+  height: 710px;
+  max-width: 500px;
+  justify-content: center;
+}
+.align_pop_hebergement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  
-  .populaire{
-    background-color: rgb(228, 228, 228);
-    height: 710px;
-    max-width: 500px;
-  }
-  
-  .lespluspop{
+.lespluspop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.lespluspop h1 {
+  margin: 30px 0 30px 20px;
+  padding-right: 0;
+  font-size: 25px;
+}
+
+.lespluspop span {
+  font-size: xx-large;
+  justify-content: flex-end;
+  left: 200px;
+  margin-right: 20px;
+}
+.allbox {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin: 0 10px 15px 10px;
+  height: 160px;
+  border-radius: 20px;
+  padding: 5px;
+  max-width: 400px;
+  box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
+}
+
+.pop_box {
+  display: inline-block;
+  background-position: center;
+  height: 100%;
+  width: 250px;
+  background-size: 255px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.pop_box-1 {
+  background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+}
+.pop_box-2 {
+  background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+}
+.pop_box-3 {
+  background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+}
+.txt {
+  width: 100%;
+  text-align: left;
+  padding-left: 15px;
+}
+.txt h2 {
+  font-weight: 900;
+  font-size: 20px;
+  height: 60px;
+  width: 200px;
+  margin: 0;
+  padding-top: 15px;
+}
+.txt p {
+  margin: 0;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+.star {
+  color: #0065fc;
+}
+.stargray {
+  color: #a3a3a3;
+}
+
+@media screen and (min-width: 1040px) {
+  .align_pop_hebergement {
     display: flex;
-    justify-content: space-between;
+    flex-direction: unset;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-  
   }
-  .lespluspop h1
-  {
-    margin: 30px 0 30px 20px;
-    padding-right: 0;
-    font-size: 25px;
+  .populaire {
+    width: 35%;
+    max-width: 35%;
+    flex-wrap: nowrap;
+    border-radius: 25px;
+    margin-left: 40px;
   }
-  
-  .lespluspop span{
-   font-size: xx-large;
-   justify-content: flex-end;
-   left: 200px;
-   margin-right: 20px;
-  
+  .populaire h2 {
+    font-size: 18px;
+    max-width: 190px;
+    min-width: 190px;
   }
-  .allbox{  
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    margin: 0 10px 15px 10px;
-    height: 160px;
-    border-radius: 20px;
-    padding: 5px;
-    max-width: 400px;
-    box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
+  .re {
+    max-width: 300px;
   }
-  
-  .pop_box{
+
+  .pop_box {
     display: inline-block;
     background-position: center;
     height: 100%;
-    width: 250px;
+    width: 600px;
+    min-width: 40%;
+    max-width: 180px;
     background-size: 255px;
-    border-top-left-radius: 15px ;
+    border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-  }
-  .pop_box-1{
-    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-  }
-  .pop_box-2{
-    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-  }
-  .pop_box-3{
-    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-  }
-  .txt{
-    width: 100%;
-    text-align: left;
-    padding-left: 15px;
-  }
-  .txt h2{
-    font-weight: 900;
-    font-size: 20px ;
-    height: 60px;
-    width: 200px;
-    margin: 0;
-    padding-top: 15px;
-  }
-  .txt p{
-    margin: 0;
-    margin-bottom: 25px;
-    padding-bottom: 20px;
-  }
-  .star{
-    color: #0065FC;
-  }
-  .stargray{
-    color: #a3a3a3;
   }
 
-  @media screen and (min-width: 1040px){
-
-    .populaire{
-        width: 35%;
-        max-width: 35%;
-        flex-wrap: nowrap;
-        border-radius: 25px;
-        margin-left: 40px;
-        
-      }
-      .populaire h2{
-        font-size: 18px;
-        max-width: 190px;
-        min-width: 190px;
-     
-      }
-      .re{
-        max-width: 300px;
-      }
-
-      .pop_box{
-        display: inline-block;
-        background-position: center;
-        height: 100%;
-        width: 600px;
-        min-width: 40%;
-        max-width: 180px;
-        background-size: 255px;
-        border-top-left-radius: 15px ;
-        border-bottom-left-radius: 15px; 
-      }
-
-      .txt p{
-        margin-bottom: 5px;
-      }
+  .txt p {
+    margin-bottom: 5px;
+  }
 }

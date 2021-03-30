@@ -1,141 +1,136 @@
-.hebergement{
-    height: 1630px;
+.hebergement {
+  height: 1660px;
+  width: 430px;
+}
+.hebergement h1 {
+  padding-left: 20px;
+  margin-top: 40px;
+}
+.hebergement h3 {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.activité h1 {
+  padding-left: 20px;
+}
+.restbox {
+  display: inline;
+}
+
+.testrest {
+  background-position: center;
+  height: 60%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: url("");
+}
+.restboxpopu {
+  background-color: rgb(255, 255, 255);
+  margin: 0 15px 15px 15px;
+  height: 220px;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 25px;
+  box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
+  cursor: pointer;
+}
+
+.txtrest {
+  width: 100%;
+  text-align: left;
+  height: 80px;
+  padding-left: 15px;
+}
+
+.txtrest h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.txtrest p {
+  font-size: 15px;
+  margin-top: 1px;
+}
+
+.box_hebergement {
+  background-position: center;
+  height: 60%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: 385px;
+}
+.box_hebergement-1 {
+  background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+}
+
+.box_hebergement-2 {
+  background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+}
+
+.box_hebergement-4 {
+  background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+}
+.box_hebergement-5 {
+  background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+}
+.box_hebergement-3 {
+  background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+}
+
+.box_hebergement-6 {
+  background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+}
+
+@media screen and (min-width: 1040px) {
+  .align_pop_hebergement {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 10px;
   }
-  .hebergement h1{
-    padding-left: 20px;
-    margin-top: 40px;
+  .hebergement {
+    background-color: #d6d4d48a;
+    height: 710px;
+    width: unset;
+    max-height: 710px;
+    border-radius: 25px;
   }
-  .hebergement h3{
-    padding-left: 20px;
-    margin-top: 30px;
+  .hebergement h1 {
+    margin-left: 50px;
+    margin-bottom: 50px;
   }
-  .activité h1{
-    padding-left: 20px;
+  .hebergement h3 {
+    margin-top: 15px;
+    margin-left: 55px;
   }
-  .restbox{
-    display: inline;
+  .restbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  
-  .testrest{
-    background-position: center;
-    height: 60%;
-    width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
-    background-image: url("");
-  }
-  .restboxpopu{
+
+  .restboxpopu {
+    display: flex;
     background-color: rgb(255, 255, 255);
     margin: 0 15px 15px 15px;
-    height: 220px;
     padding: 10px;
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 150px;
     border-radius: 25px;
     box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
-    cursor: pointer;
   }
 
-  .txtrest{
-    width: 100%;
-    text-align: left;
-    height: 80px;
-    padding-left: 15px;
-  }
-
-  .txtrest h2{
-    font-size: 20px;
-    margin-bottom: 0;
-  }
-
-  .txtrest p{
-    font-size: 15px;
-    margin-top: 1px;
-  }
-
-  .box_hebergement{
-    background-position: center;
+  .box_hebergement {
     height: 60%;
-    width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
-    background-size: 385px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
-  .box_hebergement-1{
-    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+
+  .search span {
+    min-width: 12%;
   }
-  
-  .box_hebergement-2{
-    background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  }
-  
-  .box_hebergement-4{
-    background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  }
-  .box_hebergement-5{
-    background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-  }
-  .box_hebergement-3{
-    background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  }
-  
-  .box_hebergement-6{
-    background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  }
-  
-
-  @media screen and (min-width: 1040px){
-
-    
-      .align_pop_hebergement{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        padding-left: 10px;
-      }
-      .hebergement{
-        background-color: #d6d4d48a;
-        height: 710px;
-        max-height: 710px;
-        border-radius: 25px;
-        
-      }
-      .hebergement h1{
-
-         margin-left: 50px;
-         margin-bottom: 50px;
-      }
-      .hebergement h3{
-        margin-top: 15px;
-        margin-left: 55px;
-
-      }
-      .restbox{
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      } 
-
-      .restboxpopu{
-       display: flex;
-       background-color: rgb(255, 255, 255);
-       margin: 0 15px 15px 15px;
-       padding: 10px;
-       min-width: 300px;
-       max-width: 300px;
-       max-height: 150px;
-       border-radius: 25px;
-       box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
-      }
-
-      .box_hebergement{
-        height: 60%;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-      }
-
-      .search span{
-        min-width: 12%;
-      }
-
 }

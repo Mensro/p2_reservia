@@ -1,153 +1,152 @@
-  .activité{
-    height: 1575px;
+.activité {
+  height: 1575px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgcard {
+  background-position: center;
+  height: 220px;
+  width: 400px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.img_activity-box1 {
+  background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+}
+.img_activity-box2 {
+  background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+}
+.img_activity-box3 {
+  background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+}
+.img_activity-box4 {
+  background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+}
+.img_activity-box5 {
+  background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+}
+.img_activity-box6 {
+  background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+.activity_box {
+  background-color: rgb(255, 255, 255);
+  margin: 0 15px 15px 15px;
+  height: 220px;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+}
+.txt_activity {
+  width: 100%;
+  background: white;
+  height: 60px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.activité h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.all {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1040px) {
+  .activité {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
   }
-  .imgcard{
-    background-position: center;
+  .imgcard {
     height: 100%;
     width: 100%;
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px;
-    background-size: cover;
-  
   }
-  
-  .img_activity-box1{
-    background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-  
+  .activité h1 {
+    width: 100%;
+    height: 10px;
   }
-  .img_activity-box2{
-    background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+
+  .activité {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    max-height: 800px;
   }
-  .img_activity-box3{
-    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-  
-  }
-  .img_activity-box4{
-    background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  
-  }
-  .img_activity-box5{
-    background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-  }
-  .img_activity-box6{
-    background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  }
-  
-  
-  .activity_box{
-    background-color: rgb(255, 255, 255);
-    margin: 0 15px 15px 15px;
-    height: 220px;
-    max-width: 400px;
-    border-radius: 15px;
-    box-shadow: 0px 8px 8px rgba(207, 207, 207, 0.5);
+
+  .restboxpopu {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    min-height: 230px;
+    width: 25%;
+    min-width: 25%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 6px;
     cursor: pointer;
   }
-  .card{
-    position: relative;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    overflow: hidden;
+  .restboxpopu p {
+    padding-bottom: unset;
+    margin-bottom: unset;
   }
-  .txt_activity{
+  .restbox h2 {
+    margin-top: unset;
+    min-width: 150px;
+  }
+
+  .cardbox {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    width: 100%;
+  }
+  .cardbox_column {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 100%;
+  }
+  .card {
+    height: 100%;
+    position: relative;
+  }
+  .txtrestfinal1 {
     width: 100%;
     background: white;
-    height: 60px;
+    height: 75px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
   }
-  
-  .activité h1{
-    font-size: 28px;
-    font-weight: bold;
-  }
-  .all{
-    margin-bottom: 30px;
+  .imgcard {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
-  @media screen and (min-width: 1040px){
-
-
-    .activité{
-        display: flex;
-        flex-wrap: wrap;
-        height: 500px;
-        width: 100%;
-      }
-      .activité h1{
-        width: 100%;
-        height: 10px;
-      }
-
-
-     .activité{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        height: 800px;
-        max-height: 800px;
-      }
-
-      .restboxpopu{
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        height: 230px;
-        min-height: 230px;
-        width: 25%;
-        min-width: 25%;
-        border-radius: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 4px 6px;
-        cursor: pointer;
-      }
-      .restboxpopu p{
-        padding-bottom: unset;
-        margin-bottom: unset;
-      }
-      .restbox h2{
-        margin-top: unset;
-        min-width: 150px;
-      }
-
-      .cardbox{
-        display: flex;
-        justify-content: space-between;
-        height: 550px;
-        width: 100%;
-      }
-      .cardbox_column{
-        display: flex;
-        flex-direction: column;
-        width: 23%;
-        height: 100%;
-      }
-      .card{
-        height: 100%;
-        position: relative;
-      }
-      .txtrestfinal1{
-        width: 100%;
-        background: white;
-        height: 75px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-      }
-      .imgcard{
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-      }
-
-      .activité h2{
-        padding-left: 12px;
-        margin-top: 2px;
-      }
+  .activité h2 {
+    padding-left: 12px;
+    margin-top: 2px;
+  }
 }
