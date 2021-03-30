@@ -146,6 +146,8 @@
 
   .activité h2 {
     padding-left: 12px;
-    margin-top: 2px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
   }
 }
