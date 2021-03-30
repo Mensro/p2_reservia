@@ -30,6 +30,7 @@
   cursor: pointer;
 }
 .tag_filter {
+  cursor: pointer;
   position: relative;
   height: var(--tagHeight);
   border: solid 2px rgba(143, 143, 143, 0.432);
@@ -87,6 +88,7 @@
   }
   .searchButton_2 {
     opacity: 100%;
+    width: 173px;
   }
   .nav h1 {
     margin-top: 10%;

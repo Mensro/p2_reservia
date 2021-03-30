@@ -41,6 +41,7 @@
 }
 
 .pop_box {
+  cursor: pointer;
   display: inline-block;
   background-position: center;
   height: 100%;

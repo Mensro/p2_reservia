@@ -28,6 +28,9 @@
     padding: 0 20px;
     box-sizing: border-box;
   }
+  .crédits {
+    align-items: flex-start;
+  }
 
   .footer {
     display: flex;
