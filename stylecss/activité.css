@@ -86,7 +86,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 658px;
     max-height: 800px;
   }
 
@@ -116,13 +116,13 @@
   .cardbox {
     display: flex;
     justify-content: space-between;
-    height: 550px;
+    height: 500px;
     width: 100%;
   }
   .cardbox_column {
     display: flex;
     flex-direction: column;
-    width: 23%;
+    width: 25%;
     height: 100%;
   }
   .card {
