@@ -92,12 +92,17 @@
     align-items: center;
   }
   .populaire {
-    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    min-width: 367px;
     max-width: 35%;
     flex-wrap: nowrap;
     border-radius: 25px;
     margin-left: 40px;
   }
+
   .populaire h2 {
     font-size: 18px;
     max-width: 190px;
@@ -105,6 +110,11 @@
   }
   .re {
     max-width: 300px;
+  }
+  .allbox {
+    max-width: 337px;
+    width: 90%;
+    margin-bottom: 30px;
   }
 
   .pop_box {
