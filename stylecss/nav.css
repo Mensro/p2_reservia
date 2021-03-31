@@ -28,6 +28,7 @@
 }
 .tag_filter:hover {
   cursor: pointer;
+  background-color: rgba(117, 117, 168, 0.384);
 }
 .tag_filter {
   cursor: pointer;
@@ -89,6 +90,10 @@
   .searchButton_2 {
     opacity: 100%;
     width: 173px;
+    background-color: #0065fc;
+  }
+  .rechercher {
+    display: contents;
   }
   .nav h1 {
     margin-top: 10%;
