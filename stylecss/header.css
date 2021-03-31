@@ -31,6 +31,7 @@ header {
 .tabs :nth-last-child(1) {
   text-decoration: none;
   width: 50%;
+  color: #000000;
   background-color: unset;
   border: unset;
   font-size: large;
@@ -42,6 +43,7 @@ header {
 }
 
 .tabs :nth-last-child(2) {
+  color: #000000;
   text-decoration: none;
   width: 50%;
   background-color: unset;
@@ -148,6 +150,7 @@ header {
     font-size: large;
     padding-bottom: 40px;
     padding-left: 20px;
+    border-top: unset;
     border-bottom: solid 4px rgba(15, 15, 15, 0.1);
   }
   .tabs :nth-last-child(1):hover {
@@ -180,7 +183,6 @@ header {
     border: unset;
     font-size: large;
     padding-bottom: 40px;
-    border-top: solid 4px rgba(15, 15, 15, 0.1);
   }
   .tabs :nth-last-child(1):hover {
     border-bottom: solid 4px rgb(46, 75, 238);
@@ -193,7 +195,7 @@ header {
     color: #6886da;
     font-weight: bold;
     font-size: large;
-    border-top: solid 4px rgb(97, 120, 248);
+
     padding-bottom: 40px;
   }
   .tete {
