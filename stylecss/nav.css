@@ -47,8 +47,8 @@
 .tag_filter span {
   position: absolute;
   background: rgb(168, 201, 250);
-  height: calc(var(--tagHeight) + 2px);
-  width: calc(var(--tagHeight) + 2px);
+  height: calc(var(--tagHeight));
+  width: calc(var(--tagHeight));
   border-radius: 50px;
   top: -1px;
   left: -1px;
