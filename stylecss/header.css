@@ -135,6 +135,7 @@ header {
   }
 
   .tabs {
+    padding-top: 5px;
     display: flex;
     left: 68%;
     top: -120px;
