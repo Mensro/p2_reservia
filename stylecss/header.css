@@ -40,6 +40,7 @@ header {
 }
 .tabs :nth-last-child(1):hover {
   border-bottom: solid 4px rgb(46, 75, 238);
+  color: #6886da;
 }
 
 .tabs :nth-last-child(2) {
@@ -48,14 +49,14 @@ header {
   width: 50%;
   background-color: unset;
   border: unset;
-  color: #6886da;
-  font-weight: bold;
   font-size: large;
   border-bottom: solid 4px rgb(97, 120, 248);
   padding-bottom: 40px;
   padding-right: 10px;
 }
 .tabs :nth-last-child(2):hover {
+  color: #6886da;
+
   border-bottom: solid 3px rgb(46, 75, 238);
 }
 
@@ -162,14 +163,12 @@ header {
     width: 70%;
     background-color: unset;
     border: unset;
-    color: #6886da;
-    font-weight: bold;
-    font-size: large;
     border-bottom: solid 4px rgb(97, 120, 248);
     padding-bottom: 40px;
   }
   .tabs :nth-last-child(2):hover {
     border-bottom: solid 3px rgb(46, 75, 238);
+    color: #6886da;
   }
 
   .tag_filter {
@@ -193,9 +192,6 @@ header {
     width: 50%;
     background-color: unset;
     border: unset;
-    color: #6886da;
-    font-weight: bold;
-    font-size: large;
 
     padding-bottom: 40px;
   }
