@@ -157,6 +157,7 @@ header {
   }
   .tabs :nth-last-child(1):hover {
     border-bottom: solid 4px rgb(46, 75, 238);
+    font-weight: 800;
   }
 
   .tabs :nth-last-child(2) {
@@ -168,6 +169,7 @@ header {
   }
   .tabs :nth-last-child(2):hover {
     border-bottom: solid 3px rgb(46, 75, 238);
+    font-weight: 800;
     color: #6886da;
   }
 
@@ -186,6 +188,7 @@ header {
   }
   .tabs :nth-last-child(1):hover {
     border-bottom: solid 4px rgb(46, 75, 238);
+    font-weight: 800;
   }
 
   .tabs :nth-last-child(2) {
